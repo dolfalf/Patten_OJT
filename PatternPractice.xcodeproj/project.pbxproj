@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0A84121F85F7C6006CE89E /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A84111F85F7C6006CE89E /* DelegatePattern.swift */; };
 		DAB65A3F1F835C140030D0F5 /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */; };
 		DAEBDCAF1F833BF5002D1F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBDCAE1F833BF5002D1F28 /* AppDelegate.swift */; };
 		DAEBDCB11F833BF5002D1F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBDCB01F833BF5002D1F28 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0A84111F85F7C6006CE89E /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
 		DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		DAEBDCAB1F833BF5002D1F28 /* PatternPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEBDCAE1F833BF5002D1F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				DAEBDCB01F833BF5002D1F28 /* ViewController.swift */,
 				DAEBDCB21F833BF5002D1F28 /* Main.storyboard */,
 				DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */,
+				DA0A84111F85F7C6006CE89E /* DelegatePattern.swift */,
 			);
 			path = PatternPractice;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEBDCB11F833BF5002D1F28 /* ViewController.swift in Sources */,
+				DA0A84121F85F7C6006CE89E /* DelegatePattern.swift in Sources */,
 				DAEBDCAF1F833BF5002D1F28 /* AppDelegate.swift in Sources */,
 				DAB65A3F1F835C140030D0F5 /* SingletonPattern.swift in Sources */,
 			);
