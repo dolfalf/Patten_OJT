@@ -38,8 +38,55 @@ var myObject = MyClass()
 
 var plusOne = PlusOneClass()
 
-plusOne.delegate = myObject
-plusOne.value = 5
+// plusOne.delegate = myObject
+// plusOne.value = 5
 // MyClass value = 6
+
+//-------------------------------------------
+// Optional Protocolを使用するには＠objcを付ける。
+@objc protocol BlahProtocol {
+    @objc func blah(_ blahObject: BlahClass)
+    
+    //Optionalメソッドは前にoptionalを付ける。
+    @objc optional func blahBlah(_ blasObject: BlahClass, whyBlahBlah: String)
+}
+
+
+// BlahClassの中で特殊な場合、プロトコルを使うクラス。
+@objc class BlahClass: NSObject {
+    var delegate: BlahProtocol?
+    
+    func something() {
+        self.delegate?.blah(self)
+    }
+    
+    //オプショナルだから、無いかも知れない。
+    //それで、オプショナルタイプにチェーンをする。
+    func somthingAnother() {
+        self.delegate?.blahBlah?(self, whyBlahBlah: "Who am I?")
+    }
+}
+
+class CustomClass: BlahProtocol {
+    let blah = BlahClass()
+    
+    init() {
+        self.blah.delegate = self
+        self.blah.something()
+        self.blah.somthingAnother()
+    }
+    
+    func blah(_ blahObject: BlahClass) {
+        print("Calling with blah Protocol")
+    }
+    
+    //プロトコルのオプショナルメソッドだから、必ず苦言される必要はない。
+    //func blahBlah(_ blasObject: BlahClass, whyBlahBlah: String) {
+    //    print("He said = \(whyBlahBlah)")
+    //}
+}
+
+let cc = CustomClass()
+
 
 
