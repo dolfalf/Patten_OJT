@@ -16,9 +16,6 @@ protocol Observable {
     func addObserver(_ observer: Observer)
     func removeObserver(_ observer: Observer)
 }
-protocol Observer: class {
-    func update(_ temp: Float, density: Float)
-}
 
 // オブザーバー登録及び解除を実際に担当するクラス生成
 class Observation: Observable {
@@ -33,28 +30,3 @@ class Observation: Observable {
     }
 }
 
-//  微細ホコリの濃度を測定してアラームを送るクラス
-class DustMeter: Observation {
-    var temperature: Float = 0.0
-    var density: Float = 0.0
-    
-    func notify() {
-        for observer in observers {
-            observer.update(temperature, density: density)
-        }
-    }
-}
-
-// 微細ホコリの濃度の状態をアラームもらえるユーザー
-class Subscriber: Observer {
-    var name: String = ""
-    
-    func update(_ temp: Float, density: Float) {
-        print("name: \(name), temp:\(temp), density:\(density)")
-    }
-    
-    init(name: String) {
-        self.name = name
-    }
-    
-}

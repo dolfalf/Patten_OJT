@@ -26,7 +26,15 @@ class ViewController: UIViewController {
         dustMeter.addObserver(user2)
         // アラームをもうもらわないユーザー
         dustMeter.removeObserver(user1)
+        
+        // FactoryPattern
+        let factorys = Factorys()
+        var unit = factorys.createUnit(type: .siege)
+        unit.action()
+        
+        let cc = CustomClass()
     }
+    
 }
 
 extension ViewController {
@@ -35,5 +43,6 @@ extension ViewController {
         dustMeter.density = 80
         dustMeter.notify()
     }
+
 }
 

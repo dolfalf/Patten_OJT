@@ -19,28 +19,9 @@ protocol Unit{
     func action()
 }
 
-class Siege: Unit {
-    func action() {
-        print("시즈탱크가 포를 쏩니다.")
-    }
-}
-
-class Goliath: Unit {
-    func action() {
-        print("골리앗이 비행유닛을 쏩니다.")
-    }
-}
-
-class Vulture: Unit {
-    func action() {
-        print("벌처가 마인을 심습니다.")
-    }
-}
-
 enum UnitType {
     case siege, goliath, vulture
 }
-
 // StarCraftのFactoryがデザインパタンのFactoryだと考えられる
 class Factorys {
     func createUnit(type: UnitType) -> Unit {
@@ -54,7 +35,3 @@ class Factorys {
         }
     }
 }
-
-let factorys = Factorys()
-var unit = factorys.createUnit(type: .siege)
-unit.action()
