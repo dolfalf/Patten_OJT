@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA9EF73A1F8728B000732115 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF7391F8728B000732115 /* DelegatePattern.swift */; };
+		DA9EF73A1F8728B000732115 /* PlusOneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF7391F8728B000732115 /* PlusOneClass.swift */; };
 		DAB65A3F1F835C140030D0F5 /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */; };
-		DAC702951F8C9E570033EB44 /* FactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC702941F8C9E570033EB44 /* FactoryPattern.swift */; };
+		DAC702951F8C9E570033EB44 /* Factorys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC702941F8C9E570033EB44 /* Factorys.swift */; };
 		DAEBDCAF1F833BF5002D1F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBDCAE1F833BF5002D1F28 /* AppDelegate.swift */; };
 		DAEBDCB11F833BF5002D1F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBDCB01F833BF5002D1F28 /* ViewController.swift */; };
 		DAEBDCB41F833BF5002D1F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEBDCB21F833BF5002D1F28 /* Main.storyboard */; };
@@ -17,6 +17,24 @@
 		DAEBDCB91F833BF5002D1F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEBDCB71F833BF5002D1F28 /* LaunchScreen.storyboard */; };
 		DAEBDCC41F833BF5002D1F28 /* PatternPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBDCC31F833BF5002D1F28 /* PatternPracticeTests.swift */; };
 		DAEBDCCF1F833BF5002D1F28 /* PatternPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBDCCE1F833BF5002D1F28 /* PatternPracticeUITests.swift */; };
+		DAFA8B171F94AC340047A07F /* DustMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B161F94AC340047A07F /* DustMeter.swift */; };
+		DAFA8B191F94AC4A0047A07F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B181F94AC4A0047A07F /* Observable.swift */; };
+		DAFA8B1B1F94AC5C0047A07F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B1A1F94AC5C0047A07F /* Observer.swift */; };
+		DAFA8B1D1F94AC700047A07F /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B1C1F94AC700047A07F /* Subscriber.swift */; };
+		DAFA8B1F1F94ACAA0047A07F /* PlusOneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B1E1F94ACAA0047A07F /* PlusOneProtocol.swift */; };
+		DAFA8B211F94ACC00047A07F /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B201F94ACC00047A07F /* MyClass.swift */; };
+		DAFA8B231F94ACFD0047A07F /* BlahProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B221F94ACFD0047A07F /* BlahProtocol.swift */; };
+		DAFA8B251F94AD1D0047A07F /* BlahClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B241F94AD1D0047A07F /* BlahClass.swift */; };
+		DAFA8B271F94AD390047A07F /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B261F94AD390047A07F /* CustomClass.swift */; };
+		DAFA8B2B1F94ADE20047A07F /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B2A1F94ADE20047A07F /* Unit.swift */; };
+		DAFA8B2D1F94ADFE0047A07F /* Siege.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B2C1F94ADFE0047A07F /* Siege.swift */; };
+		DAFA8B2F1F94AE1B0047A07F /* Goliath.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B2E1F94AE1B0047A07F /* Goliath.swift */; };
+		DAFA8B311F94AE3A0047A07F /* Vulture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B301F94AE3A0047A07F /* Vulture.swift */; };
+		DAFA8B361F94DCA40047A07F /* CharacterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B351F94DCA40047A07F /* CharacterState.swift */; };
+		DAFA8B381F94DCB40047A07F /* GoodGuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B371F94DCB40047A07F /* GoodGuy.swift */; };
+		DAFA8B3A1F94DCC10047A07F /* RunningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B391F94DCC10047A07F /* RunningState.swift */; };
+		DAFA8B3C1F94DCCE0047A07F /* StandingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B3B1F94DCCE0047A07F /* StandingState.swift */; };
+		DAFA8B3E1F94DCDC0047A07F /* WalkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA8B3D1F94DCDC0047A07F /* WalkingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA9EF7391F8728B000732115 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
+		DA9EF7391F8728B000732115 /* PlusOneClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneClass.swift; sourceTree = "<group>"; };
 		DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
-		DAC702941F8C9E570033EB44 /* FactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPattern.swift; sourceTree = "<group>"; };
+		DAC702941F8C9E570033EB44 /* Factorys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorys.swift; sourceTree = "<group>"; };
 		DAEBDCAB1F833BF5002D1F28 /* PatternPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEBDCAE1F833BF5002D1F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEBDCB01F833BF5002D1F28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +71,24 @@
 		DAEBDCCA1F833BF5002D1F28 /* PatternPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEBDCCE1F833BF5002D1F28 /* PatternPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternPracticeUITests.swift; sourceTree = "<group>"; };
 		DAEBDCD01F833BF5002D1F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFA8B161F94AC340047A07F /* DustMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DustMeter.swift; sourceTree = "<group>"; };
+		DAFA8B181F94AC4A0047A07F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DAFA8B1A1F94AC5C0047A07F /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		DAFA8B1C1F94AC700047A07F /* Subscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
+		DAFA8B1E1F94ACAA0047A07F /* PlusOneProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneProtocol.swift; sourceTree = "<group>"; };
+		DAFA8B201F94ACC00047A07F /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		DAFA8B221F94ACFD0047A07F /* BlahProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlahProtocol.swift; sourceTree = "<group>"; };
+		DAFA8B241F94AD1D0047A07F /* BlahClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlahClass.swift; sourceTree = "<group>"; };
+		DAFA8B261F94AD390047A07F /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		DAFA8B2A1F94ADE20047A07F /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		DAFA8B2C1F94ADFE0047A07F /* Siege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siege.swift; sourceTree = "<group>"; };
+		DAFA8B2E1F94AE1B0047A07F /* Goliath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goliath.swift; sourceTree = "<group>"; };
+		DAFA8B301F94AE3A0047A07F /* Vulture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vulture.swift; sourceTree = "<group>"; };
+		DAFA8B351F94DCA40047A07F /* CharacterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterState.swift; sourceTree = "<group>"; };
+		DAFA8B371F94DCB40047A07F /* GoodGuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodGuy.swift; sourceTree = "<group>"; };
+		DAFA8B391F94DCC10047A07F /* RunningState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningState.swift; sourceTree = "<group>"; };
+		DAFA8B3B1F94DCCE0047A07F /* StandingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingState.swift; sourceTree = "<group>"; };
+		DAFA8B3D1F94DCDC0047A07F /* WalkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +139,14 @@
 		DAEBDCAD1F833BF5002D1F28 /* PatternPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DAFA8B341F94DC890047A07F /* StrategyPattern */,
+				DAFA8B151F94AC190047A07F /* Observerpattern */,
+				DAFA8B121F94ABBB0047A07F /* SingletonPattern */,
+				DAFA8B131F94ABD00047A07F /* DelegatePattern */,
+				DAFA8B141F94ABDA0047A07F /* FactoryPattern */,
 				DAEBDCDC1F833C2B002D1F28 /* OtherFiles */,
 				DAEBDCB01F833BF5002D1F28 /* ViewController.swift */,
 				DAEBDCB21F833BF5002D1F28 /* Main.storyboard */,
-				DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */,
-				DA9EF7391F8728B000732115 /* DelegatePattern.swift */,
-				DAC702941F8C9E570033EB44 /* FactoryPattern.swift */,
 			);
 			path = PatternPractice;
 			sourceTree = "<group>";
@@ -140,6 +178,62 @@
 				DAEBDCBA1F833BF5002D1F28 /* Info.plist */,
 			);
 			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		DAFA8B121F94ABBB0047A07F /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				DAB65A3E1F835C130030D0F5 /* SingletonPattern.swift */,
+			);
+			path = SingletonPattern;
+			sourceTree = "<group>";
+		};
+		DAFA8B131F94ABD00047A07F /* DelegatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				DA9EF7391F8728B000732115 /* PlusOneClass.swift */,
+				DAFA8B1E1F94ACAA0047A07F /* PlusOneProtocol.swift */,
+				DAFA8B201F94ACC00047A07F /* MyClass.swift */,
+				DAFA8B221F94ACFD0047A07F /* BlahProtocol.swift */,
+				DAFA8B241F94AD1D0047A07F /* BlahClass.swift */,
+				DAFA8B261F94AD390047A07F /* CustomClass.swift */,
+			);
+			path = DelegatePattern;
+			sourceTree = "<group>";
+		};
+		DAFA8B141F94ABDA0047A07F /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				DAC702941F8C9E570033EB44 /* Factorys.swift */,
+				DAFA8B2A1F94ADE20047A07F /* Unit.swift */,
+				DAFA8B2C1F94ADFE0047A07F /* Siege.swift */,
+				DAFA8B2E1F94AE1B0047A07F /* Goliath.swift */,
+				DAFA8B301F94AE3A0047A07F /* Vulture.swift */,
+			);
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		DAFA8B151F94AC190047A07F /* Observerpattern */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA8B1A1F94AC5C0047A07F /* Observer.swift */,
+				DAFA8B161F94AC340047A07F /* DustMeter.swift */,
+				DAFA8B181F94AC4A0047A07F /* Observable.swift */,
+				DAFA8B1C1F94AC700047A07F /* Subscriber.swift */,
+			);
+			path = Observerpattern;
+			sourceTree = "<group>";
+		};
+		DAFA8B341F94DC890047A07F /* StrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA8B351F94DCA40047A07F /* CharacterState.swift */,
+				DAFA8B371F94DCB40047A07F /* GoodGuy.swift */,
+				DAFA8B391F94DCC10047A07F /* RunningState.swift */,
+				DAFA8B3B1F94DCCE0047A07F /* StandingState.swift */,
+				DAFA8B3D1F94DCDC0047A07F /* WalkingState.swift */,
+			);
+			path = StrategyPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,11 +370,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFA8B2B1F94ADE20047A07F /* Unit.swift in Sources */,
 				DAEBDCB11F833BF5002D1F28 /* ViewController.swift in Sources */,
-				DAC702951F8C9E570033EB44 /* FactoryPattern.swift in Sources */,
-				DA9EF73A1F8728B000732115 /* DelegatePattern.swift in Sources */,
+				DAFA8B2F1F94AE1B0047A07F /* Goliath.swift in Sources */,
+				DAFA8B1B1F94AC5C0047A07F /* Observer.swift in Sources */,
+				DAFA8B3A1F94DCC10047A07F /* RunningState.swift in Sources */,
+				DAFA8B2D1F94ADFE0047A07F /* Siege.swift in Sources */,
+				DAFA8B231F94ACFD0047A07F /* BlahProtocol.swift in Sources */,
+				DAFA8B211F94ACC00047A07F /* MyClass.swift in Sources */,
+				DAFA8B171F94AC340047A07F /* DustMeter.swift in Sources */,
+				DAC702951F8C9E570033EB44 /* Factorys.swift in Sources */,
+				DAFA8B311F94AE3A0047A07F /* Vulture.swift in Sources */,
+				DAFA8B381F94DCB40047A07F /* GoodGuy.swift in Sources */,
+				DAFA8B361F94DCA40047A07F /* CharacterState.swift in Sources */,
+				DAFA8B3C1F94DCCE0047A07F /* StandingState.swift in Sources */,
+				DAFA8B251F94AD1D0047A07F /* BlahClass.swift in Sources */,
+				DAFA8B3E1F94DCDC0047A07F /* WalkingState.swift in Sources */,
+				DAFA8B191F94AC4A0047A07F /* Observable.swift in Sources */,
+				DA9EF73A1F8728B000732115 /* PlusOneClass.swift in Sources */,
+				DAFA8B1F1F94ACAA0047A07F /* PlusOneProtocol.swift in Sources */,
+				DAFA8B1D1F94AC700047A07F /* Subscriber.swift in Sources */,
 				DAEBDCAF1F833BF5002D1F28 /* AppDelegate.swift in Sources */,
 				DAB65A3F1F835C140030D0F5 /* SingletonPattern.swift in Sources */,
+				DAFA8B271F94AD390047A07F /* CustomClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
